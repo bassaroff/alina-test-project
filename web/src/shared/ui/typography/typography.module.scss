@@ -1,0 +1,78 @@
+@import "src/app/styles/colors";
+
+.h1 {
+  font-size: 56px;
+  line-height: 62px;
+}
+
+.h2 {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.h3 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.subtitle-1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.subtitle-2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.h1,
+.h2,
+.h3,
+.subtitle-1,
+.subtitle-2 {
+  font-weight: 800;
+}
+
+.text-l-bold,
+.text-l {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.text-m-bold,
+.text-m {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.text-s-bold,
+.text-s {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.text-l-bold,
+.text-m-bold,
+.text-s-bold {
+  font-weight: 700;
+}
+
+.primary {
+  color: $text-primary;
+}
+
+.secondary {
+  color: $white;
+}
+
+.success {
+  color: $successful;
+}
+
+.error {
+  color: $error;
+}
+
+.warning {
+  color: $attention;
+}

@@ -1,0 +1,18 @@
+@import "normalize.css";
+@import "styles/colors";
+@import "styles/vars";
+
+body {
+  margin: 0;
+  background: var(--light-blue-Alina);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+

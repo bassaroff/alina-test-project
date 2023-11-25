@@ -1,0 +1,12 @@
+.link {
+  text-decoration: none;
+  display: flex;
+  gap: 12px;
+  padding: 14px 20px;
+  align-items: center;
+
+  &._active {
+    background: var(--blue-Alina);
+    border-radius: 0 26px 26px 0;
+  }
+}

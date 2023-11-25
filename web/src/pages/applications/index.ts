@@ -1,0 +1,1 @@
+export { AllApplications } from './all'

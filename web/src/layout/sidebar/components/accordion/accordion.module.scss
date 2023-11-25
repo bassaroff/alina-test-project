@@ -1,0 +1,32 @@
+.accordion {
+  &._wrapper {
+    width: 100%;
+    padding: 14px 20px;
+  }
+
+  &._title {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &._heading {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+
+  &._content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s cubic-bezier(0, 1, 0, 1);
+
+    &._open {
+      height: auto;
+      max-height: 9999px;
+      transition: all 0.2s cubic-bezier(1, 0, 1, 0);
+      padding-top: 14px;
+    }
+  }
+}
