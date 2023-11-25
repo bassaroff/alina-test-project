@@ -1,5 +1,3 @@
-import {json} from "express";
-
 let applications = [...Array(300).keys()].map(i => {
     return {
         id: i,

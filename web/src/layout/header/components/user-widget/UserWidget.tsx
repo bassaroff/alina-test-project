@@ -1,4 +1,4 @@
-import {useEffect, useRef, useState} from "react";
+import {useRef, useState} from "react";
 import {useNavigate} from "react-router-dom";
 import classnames from "classnames/bind";
 import {Images} from "@/shared/assets/images";

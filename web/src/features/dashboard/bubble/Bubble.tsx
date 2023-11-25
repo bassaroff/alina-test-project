@@ -3,7 +3,7 @@ import React from "react";
 import {AxisOptions, Chart} from "react-charts";
 
 const Bubble = () => {
-    const { data, randomizeData } = useChartMockConfig({
+    const { data } = useChartMockConfig({
         series: 10,
         dataType: "linear",
         useR: true,

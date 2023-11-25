@@ -1,7 +1,7 @@
-import {DataGrid, GridApi, GridColDef, GridRowsProp} from '@mui/x-data-grid';
+import {DataGrid, GridColDef, GridRowsProp} from '@mui/x-data-grid';
 import {getApplications, IApplication, removeApplication} from "@/shared/api/applications";
 import {useEffect, useState} from "react";
-import {Button, Dialog, DialogActions, DialogTitle, IconButton, TablePagination} from "@mui/material";
+import {Button, Dialog, DialogActions, DialogTitle, TablePagination} from "@mui/material";
 import {IPage} from "@/shared/api/types";
 import * as React from "react";
 

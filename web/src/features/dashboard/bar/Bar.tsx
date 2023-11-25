@@ -3,7 +3,7 @@ import React from "react";
 import useChartConfig from "@/shared/lib/hooks/useChartMockConfig";
 
 const Bar = () => {
-    const { data, randomizeData } = useChartConfig({
+    const { data } = useChartConfig({
         series: 3,
         dataType: "ordinal",
     });

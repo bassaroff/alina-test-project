@@ -1,7 +1,7 @@
 import {Link as RouterLink, useMatch} from 'react-router-dom';
 import classNames from "classnames/bind";
 import styles from './link.module.scss';
-import React, {FC, ReactNode, SVGProps} from "react";
+import React, {FC, SVGProps} from "react";
 import {Typography} from "@/shared/ui";
 
 const cn = classNames.bind(styles);

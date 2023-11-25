@@ -1,6 +1,6 @@
 import classnames from "classnames/bind";
 import styles from './header.module.scss';
-import {useAppDispatch, useAppSelector} from "@/app/providers/with-redux-store";
+import {useAppDispatch} from "@/app/providers/with-redux-store";
 import {UserWidget} from "@/layout/header/components";
 import { RxHamburgerMenu } from "react-icons/rx";
 import {openSidebar} from "@/app/providers/with-redux-store/modules/sidebar";

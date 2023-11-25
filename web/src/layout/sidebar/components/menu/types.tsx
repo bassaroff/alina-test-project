@@ -1,4 +1,4 @@
-import {FC, ReactNode, SVGProps} from "react";
+import {FC,  SVGProps} from "react";
 import {Icons} from "@/shared/assets/icons";
 
 export type MenuLink = {
