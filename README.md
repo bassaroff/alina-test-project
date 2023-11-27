@@ -16,7 +16,11 @@
 - start-all.bat (Windows)
 - stat-all.sh (Unix-like)
 
-
+## Запуск в контейнере Docker
+- В корне проекта 
+```bash
+  docker-compose up -d
+```
 
 ## Запуск проекта
 
